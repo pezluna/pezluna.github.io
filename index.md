@@ -1,4 +1,4 @@
 ---
-layout: post
-title: index
+layout: page
+title: Home
 ---
