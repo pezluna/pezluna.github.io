@@ -1,7 +1,7 @@
 # Setup
 title:               "Pezluna's blog"
 tagline:             'with new theme'
-description:         'Pezluna's blog, with new theme.'
+description:         "Pezluna's blog, with new theme."
 url:                 http:/pezluna.github.io
 baseurl:             ''
 paginate:            5
