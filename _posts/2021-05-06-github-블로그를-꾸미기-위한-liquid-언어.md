@@ -1,3 +1,8 @@
+---
+layout: post
+title: github 블로그를 꾸미기 위한 liquid 언어
+---
+
 github 블로그를 만들게 되면 jekyll 테마를 골라서 설치하게 된다.  
 그런데, 이미 완성된 jekyll 테마를 내 입맛에 맞게 수정할 수는 없는걸까?  
 
