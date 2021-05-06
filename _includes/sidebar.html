@@ -17,6 +17,7 @@
     {% endcomment %}
 
     {% assign pages_list = site.pages | sort:"url" %}
+    <p> {{pages_list}} </p>
     {% for node in pages_list %}
       {% if node.title != null %}
         {% if node.layout == "page" %}
