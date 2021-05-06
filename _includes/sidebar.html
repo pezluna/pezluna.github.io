@@ -18,7 +18,7 @@
 
     {% assign pages_list = site.pages | sort:"url" %}
     {% for node in pages_list %}
-      <p> {{node}} </p>
+      <p> {{pages_list.index(node)}} : {{node}} </p>
       {% if node.title != null %}
         {% if node.layout == "page" %}
           <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | absolute_url }}">{{ node.title }}</a>
