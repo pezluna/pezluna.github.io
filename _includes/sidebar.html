@@ -17,10 +17,10 @@
     {% endcomment %}
 
     {% assign pages_list = site.pages | sort:"url" %}
-    <div class="test_item">
-      <p> test = {{pages_list}} </p>
-    </div>
     {% for node in pages_list %}
+      <div class="test_item">
+        <p> test = {{node}} </p>
+      </div>
       {% if node.title != null %}
         {% if node.layout == "page" %}
           <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | absolute_url }}">{{ node.title }}</a>
