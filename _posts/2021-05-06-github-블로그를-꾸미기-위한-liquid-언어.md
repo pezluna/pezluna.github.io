@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: forensic
 title: github 블로그를 꾸미기 위한 liquid 언어
 ---
 
