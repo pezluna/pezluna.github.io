@@ -19,8 +19,9 @@
     {% assign pages_list = site.pages | sort:"url" %}
     {% for node in pages_list %}
       <div class="test_item">
+        <p> {{node.title}} </p>
         <p> {{node.url}} </p>
-        <p> {{node}} </p>
+        <p> {{node.layout}} </p>
       </div>
       {% if node.title != null %}
         {% if node.layout == "page" %}
