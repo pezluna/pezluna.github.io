@@ -1,7 +1,7 @@
 title: Seungju Han's Blog
-subtitle: A Portfolio Jekyll Theme Built for Developers
+subtitle: Cyber Security and Artificial Intelligence
 description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
+  Seungju Han, SSRC Researcher
 
 url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -29,7 +29,7 @@ author: Seungju Han
 author_bio: 404?
 author_email: "sjhan@jnu.ac.kr"
 author_location: South Korea
-author_website_url: "https://sujaykundu.com"
+author_website_url: "https://pezluna.kr"
 typewrite-text: Cyber Security / Artificial Intelligence
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
