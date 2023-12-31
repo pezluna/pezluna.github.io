@@ -50,12 +50,17 @@ author_work_experiences:
 
 # Education
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
-                visibility: false
+              - college_logo: Chonnam_uni_logo.gif
+                college_name: Chonnam Natinoal University
+                college_url: https://jnu.ac.kr
+                college_degree: CS Engineer (TBU)
+                description: Bachelor of Science
+                visibility: True
+              - college_name: System Security Research Center
+                college_url: https://ssrc.jnu.ac.kr
+                college_degree: Course of Master (Ongoing)
+                description: Expected Graduation - Feb 2024
+                visibility: True
 
 # Projects
 author_project_details:
