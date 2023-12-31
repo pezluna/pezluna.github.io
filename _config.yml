@@ -14,8 +14,8 @@ urls:
       url: /about
     - text: Blog
       url: /blog
-    - text: Gallery
-      url: /gallery
+#    - text: Gallery
+#      url: /gallery
 #    - text: Shop
 #      url : /shop
 #    - text: Contact
@@ -26,10 +26,10 @@ urls:
 
 author_logo: profile.png
 author: Seungju Han
-author_bio: 404?
+author_bio: Artificial Intelligence for DFIR
 author_email: "sjhan@jnu.ac.kr"
 author_location: South Korea
-author_website_url: "https://pezluna.kr"
+author_website_url: "http://pezluna.kr"
 typewrite-text: Cyber Security / Artificial Intelligence
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
@@ -50,12 +50,17 @@ author_work_experiences:
 
 # Education
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
-                visibility: false
+              - college_logo: Chonnam_uni_logo.gif
+                college_name: Chonnam Natinoal University
+                college_url: https://jnu.ac.kr
+                college_degree: CS Engineer (TBU)
+                description: Bachelor of Science
+                visibility: True
+              - college_name: System Security Research Center
+                college_url: https://ssrc.jnu.ac.kr
+                college_degree: Course of Master (Ongoing)
+                description: Expected Graduation - Feb 2024
+                visibility: True
 
 # Projects
 author_project_details:
