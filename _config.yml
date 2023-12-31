@@ -57,7 +57,7 @@ author_education_details:
                 description: Bachelor of Science
                 visibility: True
               - college_name: System Security Research Center
-                college_url: https://ssrc.jnu.ac.kr
+                college_url: http://ssrc.jnu.ac.kr
                 college_degree: Course of Master (Ongoing)
                 description: Expected Graduation - Feb 2024
                 visibility: True
