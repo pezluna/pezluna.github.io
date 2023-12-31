@@ -3,7 +3,7 @@ layout: post
 title:  "A Article for test!"
 summary: "A meaningless article is here"
 author: sjhan
-date: '2023-12-31 17:13:23 +0900'
+date: '2023-12-31 00:00:00 +0900'
 category: tmp
 thumbnail: /assets/img/posts/code.jpg
 keywords: test, tmp
