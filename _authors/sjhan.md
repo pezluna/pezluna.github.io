@@ -1,6 +1,6 @@
 ---
 name: Seungju Han
-username: pezlunakr
+username: sjhan
 bio: "Seungju Han, SSRC Researcher."
 site: http://pezluna.kr
 avatar: johndoe.png
