@@ -14,12 +14,14 @@ urls:
       url: /about
     - text: Blog
       url: /blog
+    - text: Study
+      url: /study
 #    - text: Gallery
 #      url: /gallery
 #    - text: Shop
 #      url : /shop
-    - text: Contact
-      url : /contact
+#    - text: Contact
+#      url : /contact
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
