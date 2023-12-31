@@ -1,29 +1,23 @@
 ---
 layout: page
 title: About
+category: About
 ---
+**Here is my photo**
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+# Seungju Han
+E-mail: sjhan@jnu.ac.kr
+Office: #415, College of AI Convergence, Chonnam National University, Buk-gu, Gwangju, Korea
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
-
-There are currently two themes built on Poole:
-
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](https://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Atom](https://atom.io)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+## Education
+- Master's Program: System Security Research Center, Chonnam National University
+    - Expected Graduation: February 2024
+- Bachelor's Degree: Chonnam National University, **Major**, 2022
+---
+## Research Interest
+- Artificial Intelligence (AI)
+- Digital Forensics and Incident Response (DFIR)
+- Internet of Things (IoT)
+---
+## Github
+- [Github](github.com/pezluna)
