@@ -66,11 +66,11 @@ author_education_details:
 
 # Projects
 author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
-                visibility: false
+              - project_thumbnail: mobisec_2023_thumbnail.png
+                project_title: Identifying Internet of Things Using Machine Learning Based on Encrypted Traffic Data
+                project_description: MobiSec 2023 (The 7th International Conference on Mobile Internet Security)
+                project_url: https://www.manuscriptlink.com/society/kiisc/conference/mobisec2023
+                visibility: true
               - project_thumbnail: hack4r.PNG
                 project_title: Hack4r
                 project_description: A Platform built for Hackers and Penetration Testers
