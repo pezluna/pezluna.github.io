@@ -27,7 +27,7 @@ pyPLC를 윈도우 10 환경에서 실행하기 위해서는 다음과 같은 �
 
 (한글 문자에 대해 `ord()`를 사용하여 발생하는 문제는 수정하기 쉽기에 생략한다.)
 
-![Error 01](/assets/img/posts/pyplc/error_01.png) {: .center-image}
+![Error 01](/assets/img/posts/pyplc/error_01.png){: width=90% height=90% .center-image}
 
 ## 에러 메시지 분석
 에러 메시지를 보면 `hardwareInterface.py`의 `initPorts()` 함수에서 적절하지 않은 인자를 넘겨주어서 발생하는 문제임을 유추할 수 있다.
@@ -41,7 +41,7 @@ self.canbus = can.interface.Bus(bustype='socketcan', channel='can0', can_filters
 
 그런데 pyPLC는 윈도우 10에서 실행이 가능하다고 doc에 명시되어 있다.
 
-![Doc 01](/assets/img/posts/pyplc/doc_01.png){: width="90%" height="90%" .center-image}
+![Doc 01](/assets/img/posts/pyplc/doc_01.png){: width="85%" height="85%" .center-image}
 
 그래서 socketcan을 윈도우 10에서 사용할 수 있는 방법을 찾아보았다.
 
