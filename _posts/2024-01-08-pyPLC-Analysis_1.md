@@ -5,7 +5,7 @@ summary: "How to launch pyPLC on Win10"
 author: sjhan
 date: '2024-01-08 15:18:00'
 category: EVC
-thumbnail: /assets/img/posts/pyplc/pyPLC_thumbnail_01.jpg
+thumbnail: /assets/img/posts/pyplc/pyPLC_thumbnail_01.png
 keywords: EVC, EVSE
 permalink: /blog/pyPLC-Analysis_1/
 usemathjax: true
