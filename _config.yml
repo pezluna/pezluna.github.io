@@ -55,8 +55,8 @@ author_education_details:
               - college_logo: Chonnam_uni_logo.gif
                 college_name: Chonnam National University
                 college_url: https://jnu.ac.kr
-                college_degree: Bachelor of Engineering, Feb 2023
-                description: Electronics & Computer Engineering (Software Engineering)
+                college_degree: Bachelor of Engineering
+                description: "Electronics & Computer Engineering (Software Engineering)\nFeb 2023"
                 visibility: True
               - college_logo: ssrc_logo.png
                 college_name: System Security Research Center
