@@ -81,7 +81,7 @@ def initPorts(self):
 charge_parameter_backend = chademo
 ```
 
-`pyPlc.ini` 파일의 설명에 따르면 기본적으로 pyPLC는 CHAdeMO 표준을 사용하는 EVSE와 EV를 연결하는 브릿지 역할을 수행하며, 이를 위해 socketcan을 사용한다.
+`pyPlc.ini` 파일의 설명에 따르면 기본적으로 pyPLC는 CHAdeMO 표준을 사용하는 EV와 EVC를 연결하는 브릿지 역할을 수행하며, 이를 위해 socketcan을 사용한다.
 
 그러나 현재로서는 시뮬레이션 환경에서 pyPLC를 실행하고자 하기 때문에, `charge_parameter_backend`를 `none`으로 설정하고 pyPLC를 실행하면 정상적으로 실행된다.
 
@@ -91,5 +91,3 @@ charge_parameter_backend = chademo
 pyPLC는 기본적으로 CHAdeMO 표준을 사용하는 EVSE와 EV를 연결하는 브릿지 역할을 수행하며, 이를 위해 socketcan을 사용한다.
 
 이러한 pyPLC를 시뮬레이션 환경에서 실행하고자 할 때에는 굳이 CHAdeMO 표준을 사용하지 않아도 되기 때문에, `pyPlc.ini` 파일의 `charge_parameter_backend`를 `none`으로 설정하면 정상적으로 실행된다.
-
-그러나 이 방법은 임시방편이기 때문에, 시뮬레이션 환경에서도 socketcan을 사용할 수 있는 방법을 찾아보아야 한다.
