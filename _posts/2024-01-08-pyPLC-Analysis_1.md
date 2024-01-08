@@ -3,9 +3,9 @@ layout: post
 title:  "pyPLC Analysis 1"
 summary: "How to launch pyPLC on Win10"
 author: sjhan
-date: '2024-01-08 15:18:00+0900'
+date: '2024-01-08 15:18:00'
 category: EVC
-thumbnail: /assets/img/posts/code.jpg
+thumbnail: /assets/img/posts/pyplc/pyPLC_thumbnail_01.jpg
 keywords: EVC, EVSE
 permalink: /blog/pyPLC-Analysis_1/
 usemathjax: true
