@@ -41,7 +41,7 @@ self.canbus = can.interface.Bus(bustype='socketcan', channel='can0', can_filters
 
 그런데 pyPLC는 윈도우 10에서 실행이 가능하다고 doc에 명시되어 있다.
 
-![Doc 01](/assets/img/posts/pyplc/doc_01.png){: width="85%" height="85%" .center-image}
+![Doc 01](/assets/img/posts/pyplc/doc_01.png){: width="90%" height="90%" .center-image}
 
 그래서 socketcan을 윈도우 10에서 사용할 수 있는 방법을 찾아보았다.
 
