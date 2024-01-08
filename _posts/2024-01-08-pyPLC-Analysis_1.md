@@ -27,7 +27,7 @@ pyPLC를 윈도우 10 환경에서 실행하기 위해서는 다음과 같은 �
 
 (한글 문자에 대해 `ord()`를 사용하여 발생하는 문제는 수정하기 쉽기에 생략한다.)
 
-![Error 01](/assets/img/posts/pyplc/error_01.png)
+![Error 01](/assets/img/posts/pyplc/error_01.png) {: .center-image}
 
 ## 에러 메시지 분석
 에러 메시지를 보면 `hardwareInterface.py`의 `initPorts()` 함수에서 적절하지 않은 인자를 넘겨주어서 발생하는 문제임을 유추할 수 있다.
@@ -41,7 +41,7 @@ self.canbus = can.interface.Bus(bustype='socketcan', channel='can0', can_filters
 
 그런데 pyPLC는 윈도우 10에서 실행이 가능하다고 doc에 명시되어 있다.
 
-![Doc 01](/assets/img/posts/pyplc/doc_01.png)
+![Doc 01](/assets/img/posts/pyplc/doc_01.png){: width="90%" height="90%" .center-image}
 
 그래서 socketcan을 윈도우 10에서 사용할 수 있는 방법을 찾아보았다.
 
@@ -85,7 +85,7 @@ charge_parameter_backend = chademo
 
 그러나 현재로서는 시뮬레이션 환경에서 pyPLC를 실행하고자 하기 때문에, `charge_parameter_backend`를 `none`으로 설정하고 pyPLC를 실행하면 정상적으로 실행된다.
 
-![Success 01](/assets/img/posts/pyplc/success_01.png){: width="70%" height="70%"}
+![Success 01](/assets/img/posts/pyplc/success_01.png){: width="80%" height="80%" .center-image}
 
 ## 결론
 pyPLC는 기본적으로 CHAdeMO 표준을 사용하는 EVSE와 EV를 연결하는 브릿지 역할을 수행하며, 이를 위해 socketcan을 사용한다.
