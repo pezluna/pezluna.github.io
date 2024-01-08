@@ -26,7 +26,7 @@ urls:
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: profile.jpg
+author_logo: profile.png
 author: Seungju Han
 author_bio: Artificial Intelligence for DFIR
 author_email: "sjhan@jnu.ac.kr"
