@@ -3,7 +3,7 @@ layout: post
 title:  "pyPLC Analysis 1"
 summary: "How to launch pyPLC on Win10"
 author: sjhan
-date: '2024-01-08 00:00:00'
+date: '2024-01-08 15:18:00'
 category: EVC
 thumbnail: /assets/img/posts/code.jpg
 keywords: EVC, EVSE
