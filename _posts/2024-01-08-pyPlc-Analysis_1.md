@@ -39,7 +39,19 @@ self.canbus = can.interface.Bus(bustype='socketcan', channel='can0', can_filters
 
 여기서 사용된 socketcan은 리눅스에서 사용되는 소켓 기반의 CAN 통신 프로토콜로, 기본적으로 윈도우에서는 socketcan을 지원하지 않는다.
 
-그런데 pyPlc는 윈도우10에서 실행이 가능하다고 doc에 명시되어 있다.
+그런데 pyPlc는 윈도우 10에서 실행이 가능하다고 doc에 명시되어 있다.
 
 ![Doc 01](/assets/img/posts/pyplc/doc_01.png)
 
+그래서 socketcan을 윈도우 10에서 사용할 수 있는 방법을 찾아보았다.
+
+가장 먼저 찾은 방법은 한 [레딧의 글](https://www.reddit.com/r/CarHacking/comments/ot3gjf/socketcancanutils_on_windows/)이었다.
+
+wls2를 사용하여 윈도우 10에서 리눅스 환경을 구축하고, socketcan을 사용하는 방법이다.
+
+그러나 이 방법은 윈도우 10에서 온전히 pyPlc를 실행하는 방법이 아니라고 생각했기에, 다른 방법을 찾아보았다.
+
+## socketcan on Windows
+결론적으로, 나는 [python-can](https://python-can.readthedocs.io/en/stable/index.html)을 사용하여 윈도우 10에서 CAN 통신을 할 수 있도록 하였다.
+python-can은 python에서 CAN 통신을 할 수 있도록 해주는 라이브러리로, 기본적으로 리눅스 환경에서 사용하는 데에 적합하도록 설계되어 있다.
+그러나 윈도우 환경에서 사용할 수 있도록 적절한 종속 드라이버 및 라이브러리를 설치하면 사용할 수 있다.
