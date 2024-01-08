@@ -55,13 +55,14 @@ author_education_details:
               - college_logo: Chonnam_uni_logo.gif
                 college_name: Chonnam National University
                 college_url: https://jnu.ac.kr
-                college_degree: CS Engineer (TBU)
-                description: Bachelor of Science
+                college_degree: Bachelor of Engineering, Feb 2023
+                description: Electronics & Computer Engineering(Software Engineering)
                 visibility: True
-              - college_name: System Security Research Center
+              - college_logo: ssrc_logo.png
+                college_name: System Security Research Center
                 college_url: http://ssrc.jnu.ac.kr
                 college_degree: Course of Master (Ongoing)
-                description: Expected Graduation - Feb 2024
+                description: Expected Graduation - Feb 2025
                 visibility: True
 
 # Projects
