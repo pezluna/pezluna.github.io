@@ -85,7 +85,7 @@ charge_parameter_backend = chademo
 
 그러나 현재로서는 시뮬레이션 환경에서 pyPLC를 실행하고자 하기 때문에, `charge_parameter_backend`를 `none`으로 설정하고 pyPLC를 실행하면 정상적으로 실행된다.
 
-![Success 01](/assets/img/posts/pyplc/success_01.png)
+![Success 01](/assets/img/posts/pyplc/success_01.png){: width="70%" height="70%"}
 
 ## 결론
 pyPLC는 기본적으로 CHAdeMO 표준을 사용하는 EVSE와 EV를 연결하는 브릿지 역할을 수행하며, 이를 위해 socketcan을 사용한다.
